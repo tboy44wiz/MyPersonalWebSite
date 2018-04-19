@@ -1,0 +1,92 @@
+body {
+    background: #eeeeee;
+    color: #575757;
+}
+p {
+    overflow: hidden;
+}
+header {
+    background: url("../img/032.jpg");
+    min-height: 60px;
+}
+
+#company_name{
+    font-size: 38px;
+    font-family: Convoy, sans-serif;
+}
+#company_name2{
+    font-family: Convoy, sans-serif;
+}
+#profile_image {
+    width: 70%;
+    border-radius: 50%;
+}
+
+#my_biography {
+    position: relative;
+    top: 35px;
+    left: 5px;
+}
+
+#my_profession_box {
+    margin-bottom: 40px;
+}
+
+
+#copyright {
+    margin-top: -10px;
+    background-image: url("../img/032.jpg");
+}
+.news-feed {
+    padding: 5px 15px;
+    border: none;
+}
+
+
+
+
+
+
+
+#personal_data {
+    margin-bottom: 40px;
+}
+
+#educational_background {
+    margin-bottom: 40px;
+}
+
+#profile_image_2 {
+    width: 90%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+@media (max-width: 320px) {
+    #news_feed_button {
+        margin-left: 10px;
+    }
+}
+@media (max-width: 575px) {
+    #my_biography {
+        top: 0;
+    }
+    .my-profession {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {  }
+
+@media (min-width: 1200px) {  }
