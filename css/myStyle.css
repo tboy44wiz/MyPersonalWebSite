@@ -1,6 +1,8 @@
 body {
     background: #eeeeee;
     color: #575757;
+    font-size: 15px;
+    line-height: 1.5;
 }
 p {
     overflow: hidden;
@@ -8,6 +10,17 @@ p {
 header {
     background: url("../img/032.jpg");
     min-height: 60px;
+}
+
+.margin_right {
+    margin-right: 2%;
+}
+.padding-bottom {
+    padding-bottom: 10px;
+}
+.news-feed {
+    padding: 5px 15px;
+    border: none;
 }
 
 #company_name{
@@ -33,21 +46,20 @@ header {
 }
 
 
+
 #copyright {
     margin-top: -10px;
     background-image: url("../img/032.jpg");
 }
-.news-feed {
-    padding: 5px 15px;
-    border: none;
+a.footer-goldsofttech, a.footer-goldsofttech:visited {
+    color: #32cd32;
 }
 
 
 
 
 
-
-
+/*****Biography*****/
 #personal_data {
     margin-bottom: 40px;
 }
@@ -56,9 +68,81 @@ header {
     margin-bottom: 40px;
 }
 
+#skills {
+    margin-bottom: 40px;
+}
+
+#work_experience {
+    margin-bottom: 40px;
+}
+
 #profile_image_2 {
     width: 90%;
     border-radius: 50%;
+}
+#leftAsideBottom_hr {
+    display: none;
+}
+
+
+
+/***Portfolio***/
+.portfolio-main-box {
+    margin-bottom: 50px;
+}
+.portfolio-mini-box {
+    padding: 20px;
+    margin-right: 20px;
+    border: 2px solid lightgray;
+    overflow: hidden;
+}
+.portfolio-web-image {
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+.portfolio-android-image {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.portfolio-graphics-image {
+    display: block;
+    margin: auto;
+    width: 70%;
+    min-height: 200px;
+    background: lightgray;
+}
+.more-image-button {
+    padding: 2px 5px;
+    border: none;
+    -webkit-box-shadow: #686868 0 5px 5px;
+    -moz-box-shadow: #686868 0 5px 5px;
+    -o-box-shadow: #686868 0 5px 5px;
+    box-shadow: #686868 0 3px 5px;
+}
+
+
+
+
+/***Contact***/
+#contact_left_aside {
+    overflow: hidden;
+}
+
+#contact_form {
+    line-height: 2;
+}
+.form-input {
+    padding: 5px;
+    width: 97%;
+    height: 30px;
+}
+.form-textarea {
+    padding: 5px;
+    width: 97%;
+    height: 80px;
+    resize: none;
 }
 
 
@@ -67,18 +151,79 @@ header {
 
 
 
-@media (max-width: 320px) {
+@media (max-width: 370px) {
     #news_feed_button {
         margin-left: 10px;
     }
 }
 @media (max-width: 575px) {
+    #company_name{
+        font-size: 28px;
+    }
     #my_biography {
         top: 0;
     }
     .my-profession {
         margin-bottom: 20px;
     }
+
+
+    /*****Biography*****/
+    .box {
+        margin: 0 auto;
+        width: 98%;
+    }
+    .center-icon {
+        background: lightslategrey;
+        padding: 2px;
+    }
+    .center-icon img {
+        margin: auto;
+        display: block;
+    }
+    #my_biography_left_aside {
+        margin-bottom: 20px;
+    }
+    #leftAsideBottom_hr {
+        display: block;
+    }
+    #profile_image_2 {
+        width: 70%;
+    }
+    #my_biography_right_aside {
+        margin-top: 50px;
+    }
+
+
+
+    /***Portfolio***/
+    .portfolio-web-image {
+        width: 60%;
+    }
+    .portfolio-android-image {
+        width: 40%;
+    }
+    .portfolio-graphics-image {
+        display: block;
+        margin: auto;
+        width: 50%;
+        min-height: 200px;
+        background: lightgray;
+    }
+
+
+
+    /***Contact***/
+    #contact_left_aside {
+        margin-bottom: 50px;
+    }
+    #contact_send_button {
+        display: block;
+        margin: auto;
+        padding: 7px 50px;
+    }
+
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {

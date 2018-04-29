@@ -36,11 +36,15 @@ a {text-decoration: none;} a:visited{color: #80bdff}
 .color-white{background: #ffffff;} .text-white{color: #ffffff;}
 .color-black{background: #000000;} .text-black{color: #000000;}
 .color-teal{background: #008080;}  .text-teal{color: #008080;}
+.color-egg-shell{background: #fffabb;}  .text-egg-shell{color: #fffabb;}
+.color-brown{background: #9f7f5a;}  .text-brown{color: #9f7f5a;}
 
-.button {padding: 5px 15px; border: none; box-shadow: 2px 1px 6px 0 #808080;}
+.box-shadow {border: #cccccc solid 1px; -webkit-box-shadow: #686868 0 5px 10px; -moz-box-shadow: #686868 0 5px 10px; -o-box-shadow: #686868 0 5px 10px; box-shadow: #686868 0 5px 10px;}
+.button {padding: 5px 20px; border: none; -webkit-box-shadow: #686868 0 5px 10px; -moz-box-shadow: #686868 0 5px 10px; -o-box-shadow: #686868 0 5px 10px; box-shadow: #686868 0 5px 10px;}
+.button:hover {cursor: pointer;}
 
-.hr-1{border: 1px solid #778899; margin-bottom: 10px;}
-.hr-2{border: 2px solid #778899; margin-bottom: 10px;}
+.hr-1{border: 1px solid #778899; margin-top: 5px; margin-bottom: 10px;}
+.hr-2{border: 2px solid #778899; margin-top: 5px; margin-bottom: 10px;}
 
 .heading{display: block; width: 100%; background: #d3d3d3; border-bottom: 1px solid #b3b3b3; padding: 10px;}
 
@@ -57,8 +61,8 @@ a {text-decoration: none;} a:visited{color: #80bdff}
 
 @media (max-width: 575px) {
     body {background: lightslategrey;}
-    .container {width: 98%}
-    .container-mini {width: 98%}
+    .container {width: 95%}
+    .container-mini {width: 90%}
     .row {display: block}
     .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {width: 100%; margin-bottom: 10px}
 }
